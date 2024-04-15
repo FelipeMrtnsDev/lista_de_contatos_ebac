@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Contatos</title>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body>
+    <h1>Lista de contatos</h1>
+    <div id="div-teste">
+        <form id="formulario">
+            <input required id="nomeInput" placeholder="Nome" type="text">
+            <input required id="numeroInput" placeholder="Numero" type="tel">
+            <button id="botao-tabela" class="botao-adicionar" type="submit">Cadastrar</button>
+        </form>
+    </div>
+    <div class="container-table">
+        <table id="table">
+            <thead>
+                <tr>
+                    <td class="nome-td">Nome</td>
+                    <td class="numero-td">Numero</td>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
